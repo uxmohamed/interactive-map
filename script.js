@@ -22,7 +22,7 @@ class InteractiveMap {
     
     async loadSVGMap() {
         try {
-            const response = await fetch('https://cdn.jsdelivr.net/gh/uxmohamed/interactive-map@main/assets/world%201.svg');
+            const response = await fetch(`https://cdn.jsdelivr.net/gh/uxmohamed/interactive-map@main/assets/world%201.svg?t=${Date.now()}`);
             const svgText = await response.text();
             
             // Parse the SVG and extract the content
