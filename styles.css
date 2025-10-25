@@ -21,6 +21,7 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .map-wrapper {
@@ -40,7 +41,7 @@ body {
 }
 
 #worldMap:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 /* Country styling */
