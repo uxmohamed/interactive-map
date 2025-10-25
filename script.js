@@ -32,7 +32,7 @@ class InteractiveMap {
             
             if (svgContent) {
                 // Use the new SVG with proper viewBox
-                svgContent.setAttribute('viewBox', '0 0 532 583');
+                svgContent.setAttribute('viewBox', '0 0 583 583');
                 svgContent.setAttribute('width', '100%');
                 svgContent.setAttribute('height', '100%');
                 svgContent.setAttribute('preserveAspectRatio', 'xMidYMid meet');
